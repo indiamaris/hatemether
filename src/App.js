@@ -12,10 +12,11 @@ class App extends Component {
 					<div className='titles'>Pissimether</div>
 					<div className='subx'>
 						<div className='substitles'>
-							'What' is pissing you off today?
+							This is not a competition!
 						</div>
 						<div className='substitles'>
-							How much is 'what' pissing you off today?
+							But if so, which of these would be irritating you
+							the most?
 						</div>
 					</div>
 					<div>

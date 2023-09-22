@@ -15,15 +15,15 @@ class Counter extends Component {
 	render() {
 		return (
 			<div className='contenedor'>
-				<div className='contenedor1'>
+				<div className='contenedorTitleItem'>
 					<span>{this.props.label}</span>
 				</div>
 
-				<div className='contenedor2'>
+				<div className='contenedorCounter'>
 					<div className='contador'>{this.formatCount()}</div>
 				</div>
 
-				<div className='contenedor3'>
+				<div className='contenedorBtn'>
 					<div>
 						<button
 							className='btn-dg'
@@ -49,4 +49,6 @@ class Counter extends Component {
 }
 
 export default Counter;
+
+
 
